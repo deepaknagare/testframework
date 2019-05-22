@@ -38,7 +38,7 @@ public class TestUtils extends TestBase {
 			cell = sh.getRow(rownum).getCell(cellnum);
 			cell.setCellType(cell.CELL_TYPE_STRING);
 			String value = cell.getStringCellValue();
-			System.out.println("Value is : " + value);
+			//System.out.println("Value is : " + value);
 		return value;
 
 		
